@@ -35,7 +35,7 @@ class DangNhapDangKyController extends Controller
             'emaildk.unique'=>'Email đăng ký đã tồn tại!',
         ]);
         if($validator->fails()) {
-            return back()->with('toast_error',$validator->messages()->all()[0])->withInput();
+            return back()->with('toast_error',$validator->this->messages()->all()[0])->withInput();
         }
 
 
@@ -66,7 +66,7 @@ class DangNhapDangKyController extends Controller
         ]);
 
         if($validator->fails()) {
-            return back()->with('toast_error',$validator->messages()->all()[0])->withInput();
+            return back()->with('toast_error',$validator->this->messages()->all()[0])->withInput();
         }
 
 
