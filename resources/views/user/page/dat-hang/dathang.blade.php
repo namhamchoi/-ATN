@@ -564,7 +564,7 @@
 </script>
 <!-- {{-- Demo paypal --}} -->
     <script
-        src="https://www.paypal.com/sdk/js?client-id=AR2AcmUID6cjIY2ymK6wWQe2yWSY--6BQu3cWkzt2HyGgRo_KcjPtNVA03Dm_LTr2Zm9QpsMYp-nTPom">
+        src="https://www.paypal.com/sdk/js?client-id=AVyKVLtTUE-B_rr8tQFbvvP9Y5ZVUP9FDz5LkObiq2Vm4x17Bfvz8SSQSDVbJ1zfhDwcYEOACniWVhqU">
         // Required. Replace YOUR_CLIENT_ID with your sandbox client ID.
     </script>
     <script>

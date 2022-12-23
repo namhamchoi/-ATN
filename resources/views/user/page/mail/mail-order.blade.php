@@ -42,8 +42,8 @@
                     <p style="color:#000;">- Ghi chú đơn hàng:
                         <span style="color:#000">{{$shipping_array['ghi_chu']}}</span>
                     </p>
-                    <p style="color:#000;">- Hình thức thanh toán: Thanh toán khi nhận hàng
-                        {{-- <span style="color:#000">{{$shipping_array['paymentMethod']}}</span> --}}
+                    <p style="color:#000;">- Hình thức thanh toán:
+                        <span style="color:#000">{{$shipping_array['paymentMethod']}}</span>
                     </p>
 
                     <h4 style="color: #000; text-transform: uppercase">Sản phẩm đã đặt: </h4>
